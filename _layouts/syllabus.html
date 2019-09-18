@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="wrapper">
+<div class="post">
+
+<header class="post-header">
+<h1 class="post-title">{{ page.title }}</h1>
+<h5 class="post-description">{{ page.description }}</h5>
+</header>
+
+<article class="post-content {{page.title}} clearfix">
+    
+<!-- Syllabus -->    
+<div class="syllabus">
+
+<!-- Syllabus Head -->
+<h6>{{ site.data.author.institution }}</h6>
+<h6>{{ site.data.course.term }}</h6>
+<h6>{{ site.data.course.room }}</h6>
+<h6>{{ site.data.course.meets }}</h6>
+<br>
+<h6>{{ site.data.author.name }}</h6>
+<h6><a href="{{ site.data.author.email }}">{{ site.data.author.email }}</a></h6>
+<h6>{{ site.data.author.phone }}</h6>
+<h6>Office hours <a href=https://calendly.com/emfink/>by appointment</a></h6>
+
+<!-- Syllabus Body -->
+
+{{ content }}
+
+<!-- Syllabus Download Link -->
+<h4><a href={{ site.baseurl }}/_pages/syllabus.pdf >Download a copy</a></h4>
+
+</div> <!-- /Syllabus -->
+
+</article>
+
+</div>
+</div>

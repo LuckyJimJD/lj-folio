@@ -1,0 +1,101 @@
+.post-title {
+    font-size: 2rem;
+    color: $dark_red;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.post-description {
+    font-size: 2rem;
+    color: $dark_red;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.post-header {
+    margin-bottom: 0;
+}
+
+.post-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    > li {
+        border-bottom: 1px solid $light-gray;
+        padding-bottom: $space-3;
+        padding-top: $space-3;
+    }
+}
+
+.post-meta {
+    color: $grey-color;
+    font-size: $small-font-size;
+    margin-bottom: 0px;
+}
+.post-link {
+    display: block;
+    font-size: 32px;
+}
+
+
+.post h1 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+
+.post h2 {
+    font-size: 1.44rem;
+}
+
+.post h3 {
+    font-size: 1.3rem;
+}
+
+.post h4 {
+    font-size: 1.3rem;
+    font-style: oblique;
+}
+
+.post h5 {
+    font-size: 1.1rem;
+    font-style: oblique;
+}
+
+.post h6 {
+    font-size: .8rem;
+}
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+@media only screen
+and (max-device-width:576px){
+    .post-title {
+        font-size: 2.4rem;
+    }
+    .post h1 {
+        font-size: 1.6rem;
+    }
+    .post h2 {
+        font-size: 1.3rem;
+    }
+    .post h3 {
+        font-size: 1rem;
+    }
+    .post h4 {
+        font-size: 8rem;
+    }
+    .post h5 {
+        font-size: .7rem;
+    }
+    .post h6 {
+        font-size: .6rem;
+    }
+}

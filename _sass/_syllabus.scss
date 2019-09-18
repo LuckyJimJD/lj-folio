@@ -1,0 +1,124 @@
+.syllabus {
+    padding-top: 3rem;
+}
+
+.syllabus p {
+    font-size: 1.1rem;
+}
+.syllabus ul {
+    font-size: 1.1rem;
+}
+
+blockquote {
+    font-size: 0.8rem;
+}
+
+.syllabus h1 {
+    counter-reset: h2;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.3rem;
+    padding: 0;
+    color: $dark_red;
+}
+
+.syllabus h2 {
+    counter-reset: h3;
+    font-size: 1.6rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.8125rem;
+}
+
+.syllabus h3 {
+    counter-reset: h4;
+    font-size: 1.3rem;
+}
+
+.syllabus h4 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8125rem;
+}
+
+.syllabus h5 {
+    font-size: 1.6rem;
+    font-style: oblique;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.syllabus h6 {
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: .8;
+}
+
+.syllabus h1 + h2 {
+    margin-top: 1.625rem;
+}
+
+.syllabus h1 + h3 {
+    margin-top: 1rem;
+}
+
+.syllabus h1 + h4 {
+    margin-top: 1rem;
+}
+
+.syllabus h1 + h5 {
+    margin-top: 1rem;
+}
+
+.syllabus h2 + h3,
+.syllabus h2 + h4,
+.syllabus h3 + h4 {
+    margin-top: 0.8125rem;
+}
+
+.syllabus h2:before {counter-increment: h2; content: counter(h2) ". "}
+ 
+.syllabus h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+
+.syllabus h2.nocount:before, h3.nocount:before { content: ""; counter-increment: none } 
+
+@media only screen
+and (max-device-width:576px){
+    .syllabus {
+        padding-top: 1rem;
+    }
+    .syllabus p {
+        font-size: 1rem;
+    }
+    .syllabus ul {
+        font-size: 1rem;
+    }
+    .syllabus h1 {
+        font-size: 2rem;
+        margin-top: 3.2rem;
+        margin-bottom: 1.3rem;
+    }
+    .syllabus h2 {
+        font-size: 1.6rem;
+        margin-top: 2.6rem;
+        margin-bottom: 0.8125rem;
+    }
+    .syllabus h3 {
+        font-size: 1.3rem;
+        margin-top: 2.4rem;
+        margin-bottom: 0.8125rem;
+    }
+    .syllabus h4 {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        margin-bottom: 0.8125rem;
+    }
+    .syllabus h5 {
+        font-size: 1.3rem;
+        margin-top: 1.6rem;
+        margin-bottom: 3rem;
+    }
+    .syllabus h6 {
+        font-size: .7rem;
+        line-height: .7;
+    }
+}
