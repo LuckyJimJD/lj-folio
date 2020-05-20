@@ -37,5 +37,21 @@ figcaption {
     color: $caption-color;
     text-align: center;
     vertical-align: middle;
-    font-size: $caption-font-size;
+    font-size: .8rem;
+}
+
+.caption-404 {
+    height: 100%;
+    color: $dark_red;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+	font-style: italic;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
