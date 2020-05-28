@@ -1,14 +1,22 @@
 .page-content {
     padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
-.page-heading {
-    font-size: 20px;
+
+.page-title {
+    color: $dark_red;
+    font-family: $heading-font; 
+    font-size: $title-size;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
 }
+
 .contacticon {
     display: block;
     font-size: 60px;
     margin: 10px;
 }
+
 .center{
     text-align: center;
 }

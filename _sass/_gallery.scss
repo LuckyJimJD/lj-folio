@@ -3,7 +3,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: $small-size;
 }
 
 
@@ -45,7 +45,8 @@ figcaption {
     color: $dark_red;
     text-align: center;
     vertical-align: middle;
-    font-size: 2rem;
+	font-family: serif-font;
+    font-size: 1.6rem;
 	font-style: italic;
 }
 

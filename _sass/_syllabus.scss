@@ -2,84 +2,113 @@
     padding-top: 3rem;
 }
 
-.syllabus p {
-    font-size: 1.1rem;
-}
-.syllabus ul {
-    font-size: 1.1rem;
+.syllabus blockquote {
+	border-left: 0px;
 }
 
-blockquote {
+.syllabus blockquote, 
+blockquote p {
     font-size: 0.8rem;
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
+}
+
+
+.syllabus {
+	counter-reset: h2; 
 }
 
 .syllabus h1 {
-    counter-reset: h2;
+    counter-reset: h2counter;
+	font-family: $heading-font;
+	color: $dark_red;
     font-size: 2rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1.3rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
     padding: 0;
-    color: $dark_red;
 }
 
 .syllabus h2 {
-    counter-reset: h3;
+    counter-reset: h3counter;
+	font-family: $heading-font;
     font-size: 1.6rem;
-    margin-top: 2.2rem;
-    margin-bottom: 0.8125rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 
 .syllabus h3 {
-    counter-reset: h4;
+	font-family: $heading-font;
     font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 .syllabus h4 {
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 0.8125rem;
+	font-family: $serif-font;
+    font-size: 1.6rem;
+	font-style: italic;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .syllabus h5 {
+	font-family: $serif-font;
+	font-weight: bold;
     font-size: 1.6rem;
-    font-style: oblique;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .syllabus h6 {
+	font-family: $sans-font;
     font-size: .8rem;
+	font-style: normal;
     font-weight: 400;
-    line-height: .8;
+    line-height: 1.3;
+    margin-top: 0rem;
 }
 
-.syllabus h1 + h2 {
-    margin-top: 1.625rem;
+.syllabus h1 {
+    counter-reset: h2counter;
+	content: none;
+	counter-increment: none;
 }
 
-.syllabus h1 + h3 {
-    margin-top: 1rem;
+.syllabus h2:before {
+	content: counter(h2counter) ". ";
+	counter-increment: h2counter;
+	counter-reset: h3counter;
 }
 
-.syllabus h1 + h4 {
-    margin-top: 1rem;
+.syllabus h3:before {
+	content: counter(h2counter) "." counter(h3counter) "\0000a0";
+	counter-increment: h3counter;
 }
 
-.syllabus h1 + h5 {
-    margin-top: 1rem;
+.syllabus h4:before {
+    content: none;
+    counter-increment: none;
 }
 
-.syllabus h2 + h3,
-.syllabus h2 + h4,
-.syllabus h3 + h4 {
-    margin-top: 0.8125rem;
+.syllabus h5:before {
+    content: none;
+    counter-increment: none;
 }
 
-.syllabus h2:before {counter-increment: h2; content: counter(h2) ". "}
- 
-.syllabus h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+.syllabus h6:before {
+    content: none;
+    counter-increment: none;
+}
 
-.syllabus h2.nocount:before, h3.nocount:before { content: ""; counter-increment: none } 
+.download-link {
+	background-color: #fc6;
+	width: 12rem;
+    font-style: italic;
+    font-size: 1.6rem;
+	text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
 
 @media only screen
 and (max-device-width:576px){
@@ -103,7 +132,7 @@ and (max-device-width:576px){
         margin-bottom: 0.8125rem;
     }
     .syllabus h3 {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         margin-top: 2.4rem;
         margin-bottom: 0.8125rem;
     }
@@ -113,12 +142,12 @@ and (max-device-width:576px){
         margin-bottom: 0.8125rem;
     }
     .syllabus h5 {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         margin-top: 1.6rem;
         margin-bottom: 3rem;
     }
     .syllabus h6 {
-        font-size: .7rem;
-        line-height: .7;
+        font-size: .8rem;
+        line-height: .8;
     }
 }

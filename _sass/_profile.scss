@@ -29,7 +29,7 @@
 
 .profile h2 {
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: $line-height;
     color: white;
     line-height: 2;
     font-weight: 700;
@@ -55,7 +55,7 @@
     font-weight: 700;
 	font-style: normal;
     color: white;
-    line-height: 1.5;
+    line-height: $line-height;
     margin: 0 0 0 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
@@ -120,7 +120,7 @@ and (min-device-width:576px){
     .profile h3 {
         font-size: 1.5rem;
         color: white;
-        line-height: 1.5;
+        line-height: $line-height;
         font-weight: 700;
         margin: 2rem 0 0rem 0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
@@ -134,7 +134,7 @@ and (min-device-width:576px){
         font-size: 1.2rem;
         font-weight: 700;
         color: white;
-        line-height: 1.5;
+        line-height: $line-height;
         margin: 0 0 0 0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
     }

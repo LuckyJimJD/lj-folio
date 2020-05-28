@@ -1,17 +1,20 @@
 
 /******************************************************************************/
 
-// Typography
-$base-font-size: 16px !default;
-$small-font-size:  0.875rem !default;
-$bold-font-weight: bold !default;
-$font-family: 'Lato', Helvetica, sans-serif !default;
-$line-height: 1.5 !default;
-$heading-font-family: 'Proza Libre', Helvetica, sans-serif !default;
-$heading-font-weight: 700 !default;
-$heading-line-height: 1.25 !default;
-$monospace-font-family: 'Cousine', 'Source Code Pro', Consolas, monospace !default;
-$h1: 2.4rem !default;
+// Fonts 
+$serif-font: 'Cormorant Garamond','Garamond','Hoefler Text',serif !default;
+$sans-font: Lato,Helvetica, Verdana, sans-serif !default;
+$monospace-font: 'Cousine', 'Source Code Pro', Consolas, monospace !default;
+$body-font: $serif-font;
+$heading-font: $sans-font;
+$code-font: $monospace-font;
+
+// Font Sizes 
+$base-size: 16px !default;
+$small-size:  0.875rem !default;
+$title-size: 3.4rem !default;
+$description-size: 1.6rem !default;
+$h1: 2.6rem !default;
 $h2: 2rem !default;
 $h3: 1.6rem !default;
 $h4: 1.3rem !default;
@@ -25,7 +28,25 @@ $h1-responsive: 4vw !default;
 $h00-responsive-max: 7.68rem !default;
 $h0-responsive-max: 5.76rem !default;
 $h1-responsive-max: 3.84rem !default;
-$abbr-border-bottom: 1px black dotted;
+$abbr-border-bottom: 1px black dotted !default;
+
+// Font Weight
+
+$bold-font-weight: bold !default;
+$heading-font-weight: 400 !default;
+
+// Line Height 
+$line-height: 1.5 !default;
+$heading-line-height: 1.3 !default;
+
+// Whitespace
+$space-1: .5rem !default;
+$space-2: 1rem !default;
+$space-3: 2rem !default;
+$space-4: 4rem !default;
+
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
 
 // Page width
 $measure-width: 42rem !default;
@@ -67,6 +88,8 @@ $medium_grey:       #2c3e50 !default;
 $light_grey:        #d5d8dc !default;
 $bright_blue:       #3498db !default;
 $dark_red:          #b03a2e !default;
+$off-black: 		#231F20 !default;
+$off-white: 		#fffff8 !default;
 
 $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
@@ -79,26 +102,30 @@ $darken-4:          rgba(#000,.5) !default;
 
 $theme-color:       $dark-blue;
 $code-color:        $dark-grey;
-$text-color:        black;
-$background-color:  white;
+$text-color:        $off-black;
+$background-color:  $off-white;
+
 
 // Links
 $link-color:        $theme-color;
 $link-hover-color:  darken($theme-color, 40%);
 
+// Header
+$nav-height: 56px;
+
+// Footer
+$footer-border-top: thin solid $grey-color-dark;
+$footer-padding: .5rem;
+$footer-color: $light-gray;
+$footer-bg-color: $grey-color-dark;
+$footer-font-weight: 400;
+$footer-font-size: .75rem;
+
+
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';
 $breakpoint-xl: '(min-width: 96em)';
 
-// Whitespace
-$space-1: .5rem !default;
-$space-2: 1rem !default;
-$space-3: 2rem !default;
-$space-4: 4rem !default;
-
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
-$nav-height:                    56px;
 
 // Buttons
 $button-font-size: inherit !default;
@@ -106,7 +133,8 @@ $button-font-weight: normal !default;
 $button-line-height: 1.125rem !default;
 $button-padding-y: .5rem !default;
 $button-padding-x: 1rem !default;
-$button-font-family: $heading-font-family;
+$button-font-family: $heading-font;
+
 
 // Forms
 $form-field-font-size: 1rem !default;
@@ -114,16 +142,12 @@ $form-field-height: 2.25rem !default;
 $form-field-padding-y: .5rem !default;
 $form-field-padding-x: .5rem !default;
 
+
 // Borders
 $border-color: $light-gray !default;
 $border-width: 1px !default;
 $border-radius: 3px !default;
 
-// Forms
-$form-field-font-size: 1rem;
-$form-field-height: 2.25rem;
-$form-field-padding-y: .5rem;
-$form-field-padding-x: .5rem;
 
 // Code
 $pre-border-radius: 0;
@@ -146,16 +170,6 @@ $hljs-addition: $light-green;
 $hljs-change: $dark-blue;
 $hljs-chunk: $light-gray;
 
-// Header
-$nav-height: 56px;
-
-// Footer
-$footer-border-top: thin solid $grey-color-dark;
-$footer-padding: $space-1;
-$footer-color: $light-gray;
-$footer-bg-color: $grey-color-dark;
-$footer-font-weight: 300;
-$footer-font-size: .75rem;
 
 
 /******************************************************************************/

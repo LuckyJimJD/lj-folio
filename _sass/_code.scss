@@ -6,16 +6,16 @@ pre code {
 
 pre,
 code {
-  font-family: $monospace-font-family;
+  font-family: $code-font;
 }
 
 code {
-  color: $code-color;
   font-size: 85%;
   padding-bottom: 0.1em;
   padding-left: 0.2em;
   padding-right: 0.2em;
   padding-top: 0.1em;
+  background-color: transparent;
 }
 
 pre {
@@ -23,7 +23,7 @@ pre {
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
-  background-color: $pre-background-color;
+  background-color: transparent;
 }
 
 .highlight .p {

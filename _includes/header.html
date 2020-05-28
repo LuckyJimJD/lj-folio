@@ -4,7 +4,7 @@
 
     {% if page.layout != "about" %}
     <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><span class="site-title">
-        <strong>{{ site.data.author.name }}</strong>
+        <strong>{{ site.data.course.subject }}</strong>
     </span></a>
     {% endif %}
 
@@ -21,40 +21,11 @@
         </label>
 
       <div class="trigger">
-        <!-- About -->
-        <!-- <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><b>Home</b></a> -->
-
-        <!-- Blog -->
-        <!-- <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a> -->
-
-        <!-- Pages -->
-        
-        <!-- <a class="page-link" href="{{ '/links/' | prepend: site.baseurl | prepend: site.url }}">Links</a>
-        
-        <a class="page-link" href="{{ '/materials/' | prepend: site.baseurl | prepend: site.url }}">Materials</a>
-        
-        <a class="page-link" href="{{ '/syllabus/' | prepend: site.baseurl | prepend: site.url }}">Syllabus</a> -->
-        
+         
         {% for page in site.data.pages %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
         {% endfor %}
         
-        
-        <!-- {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %} -->
-
-        <!-- <a class="page-link" href="{{ '/links/' | prepend: site.baseurl | prepend: site.url }}">Links</a>
-
-        <a class="page-link" href="{{ '/materials/' | prepend: site.baseurl | prepend: site.url }}">Materials</a>
-
-        <a class="page-link" href="{{ '/syllabus/' | prepend: site.baseurl | prepend: site.url }}">Syllabus</a> -->
-
-        <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
-
       </div>
     </nav>
 

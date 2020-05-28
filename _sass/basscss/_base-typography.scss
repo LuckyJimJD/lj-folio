@@ -1,7 +1,7 @@
 /* Basscss Base Typography */
 
 body {
-  font-family: $font-family;
+  font-family: $body-font;
   line-height: $line-height;
   font-size: 100%;
 }
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  font-family: $heading-font;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin-top: 1em;
@@ -25,7 +25,7 @@ p,
 dl,
 ol,
 ul {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 0;
   margin-bottom: $space-2;
 }
@@ -38,7 +38,7 @@ ul {
 pre,
 code,
 samp {
-  font-family: $monospace-font-family;
+  font-family: $monospace-font;
   font-size: inherit;
 }
 

@@ -1,11 +1,20 @@
 # lj-folio
 
-## A [Jekyll](https://jekyllrb.com/) theme for academic course sites. 
+## A [Jekyll](https://jekyllrb.com/) theme for academic sites. 
 
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://LuckyJimJD.github.io/lj-folio/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/LuckyJimJD/CourseSiteTheme/blob/master/LICENSE)
 
-This theme is based on [alshedivat/al-folio](https://github.com/alshedivat/al-folio). It is designed for use as a simple course website, with pages for a syllabus, course materials, and links to external resources. 
+This theme is based on [alshedivat/al-folio](https://github.com/alshedivat/al-folio). It is designed for use as a simple personal or course website. 
+
+### Demos 
+
+#### Personal site with pages for publications and courses taught
+
+[![demo 1](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://LuckyJimJD.github.io/lj-folio/)
+
+#### Course site with pages for syllabus, course materials, and links to external resources
+
+[![demo 2](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://LuckyJimJD.github.io/lj-teaching-template/)
 
 ## Installation 
 
@@ -22,21 +31,31 @@ This theme is based on [alshedivat/al-folio](https://github.com/alshedivat/al-fo
 
 4. Edit other content:
 
-- The 'assets/img' folder has images used on the 'Teaching' page. 
-  - File names should ollow the pattern 'RepoName.png' or 'RepoName.jpg' (replacing 'RepoName' with the name of the repository for the site you want to link to and using the appropriate extension for the image format). 
-  - You can also put other images in that folder if you wish. 
-- The '_data' folder has YAML files with information to populate the 'About', 'Scholarship' & 'Teaching' pages. 
+The '_data' folder has YAML files with information to populate the 'About', 'Scholarship' & 'Teaching' pages. You can modify these and add other pages for the content you want to include in your site. 
 
-6. Commit changes in git and then push to [GitHub Pages]((https://pages.github.com/).
+To create a gallery page (like the 'teaching' page here):
 
+- Add images to 'assets/img'
+	- File names should follow the pattern 'RepoName.png' (or 'RepoName.jpg'), replacing 'RepoName' with the name of the repository for the site you want to link to and using the appropriate extension for the image format. 
+	- You can organize images in subfolders as desired. 
+- Create a YAML file in the '_data' folder, following the example of '_data/classes.yml' in this repository. 
+- Create a new page (in the '_pages' folder), following the example of '_pages/teaching.md', substituting the fields in your YAML data file. 
+	- If your gallery images are in subfolders under 'assets/img', be sure to include the subfolder in the 'src' path. 
 
-### Modifying Theme Elements 
+To create an index page (like the 'scholarship' page here): 
 
-Fonts, font sizes, colors, spacing, etc. are set using variables (`$variable_name`) in the `_sass/variables.scss` file. 
+- Create a YAML file in the '_data' folder, following the example of '_data/scholarship.yml' in this repository. 
+- Create a new page (in the '_pages' folder), following the example of '_pages/scholarship.md', substituting the fields in your YAML data file. 
 
-For Google webfonts, replace the code in `_includes/head.html` with the appropriate code for your fonts. 
+To include navigation links to pages in the site header, edit the '_data/pages.yml' file. That file is used to auto-populate the navigation links in the site header ('_includes/header.html').
 
-Available colors are defined in the same file, e.g.:`$red: #FF3636 !default;`. For additional colors, add a new definition string following the same pattern: `$color_name: #xxxxxx !default;` (where `xxxxxx`=color hex code). 
+5. Commit changes in git and then push to [GitHub Pages]((https://pages.github.com/).
+
+### Modifying Theme Style 
+
+Fonts, font sizes, spacing, colors, etc. are set using variables (`$variable_name`) in the `_sass/variables.scss` file. 
+
+To use Google webfonts, replace the code in `_includes/head.html` with the appropriate code for your fonts and then edit the font variables in '_sass/variables.scss' to use your preferred font names. 
 
 ## License
 

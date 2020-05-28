@@ -10,6 +10,10 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+    background-color: #fffff8;
+}
+
 img {
   max-width: none;
 }
@@ -37,11 +41,11 @@ body {
 
 @media screen and (min-width: 768px){
     .wrapper {
-        max-width: -webkit-calc(900px - (#{$horizontal-spacing-unit} * 2));
-        max-width:         calc(900px - (#{$horizontal-spacing-unit} * 2));
+        max-width: -webkit-calc(900px - (#{50px} * 2));
+        max-width:         calc(900px - (#{50px} * 2));
         margin-right: auto;
         margin-left: auto;
-        padding-right: $horizontal-spacing-unit;
-        padding-left: $horizontal-spacing-unit;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }

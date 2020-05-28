@@ -11,18 +11,16 @@ layout: default
 			<h3 class="post-header">{{ page.author }}</h3>
 			{% endif %}
 
-			{% if page.cite %}
-			<h4 class="post-header">{{ page.cite }}</h3>
+			{% if page.affiliation %}
+			<h4 class="post-header">{{ page.affiliation }}</h4>
 			{% endif %}
 
-			{% if page.affiliation %}
-			<h4 class="post-header">{{ page.affiliation }}</h3>
-			{% endif %}
 		</header>
 
 		<article class="post-content {{page.title}} clearfix">
-			{{ content }}
+			<div class="outline">
+				{{ content }}
+			</div>
 		</article>
-
 	</div>
 </div>
