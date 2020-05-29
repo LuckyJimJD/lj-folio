@@ -1,0 +1,140 @@
+.vita {
+    font-family: 'Cormorant Garamond',serif;
+    padding-bottom: 20px;
+}
+
+.vita ul {
+    font-size: 1.3rem;
+}
+
+.vita p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.vita h1 {
+    font-size: 2rem;
+	font-weight: bold;
+    color: $dark_red;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0 3px 0;
+    border-bottom: 1px solid $text-color;
+}
+
+.vita h2 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 1.7rem;
+	font-weight: bold;
+    margin-top: 2.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.vita h3 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.vita h4 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 1.3rem;
+	font-weight: normal;
+    font-style: oblique;
+}
+
+.vita h5 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 1.3rem;
+	font-weight: normal;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
+
+.vita h6 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 1rem;
+	font-weight: normal;
+    line-height: 1.3;
+    margin: 0 0 .5rem 0;
+    padding: 0;
+}
+
+.vita h2 + h3,
+.vita h2 + h4,
+.vita h3 + h4 {
+    margin-top: 0.8rem;
+}
+
+.vita-author h1 {
+    font-family: 'Cormorant Garamond',serif;
+    color: $text-color;
+    font-size: 3rem;
+	font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    border-bottom: none;
+}
+
+
+@media only screen
+and (max-device-width:576px){
+    
+    .vita {
+        .left {
+            width: 55%;
+            margin: 0;
+            padding: 0;
+        }
+        .right {
+            width: 45%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .vita {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .vita ul {
+        font-size: 1rem;
+    }
+    .vita p {
+        font-size: 1rem;
+    }
+    .vita h1 {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .vita h2 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.8em;
+    }
+    .vita h3 {
+        font-size: 1rem;
+    }
+    .vita h4 {
+        font-size: 1rem;
+    }
+    .vita h5 {
+        font-size: 1rem;
+    }
+    .vita h6 {
+        font-size: .8rem;
+        line-height: 1.3;
+        margin: 0 0 .5rem 0;
+    }
+    .vita h2 + h3,
+    .vita h2 + h4,
+    .vita h3 + h4 {
+        margin-top: 0.5rem;
+    }
+    ..vita-author h1 {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
