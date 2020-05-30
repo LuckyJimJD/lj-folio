@@ -15,20 +15,23 @@ vita p {
 
 .vita-contact {
     font-family: $body-font;
-    font-size: 1rem;
-	font-weight: normal;
-    line-height: 1;
-	text-align: right;
     margin: 0;
     padding: 0;
 }
 
+.vita-left {
+	float: left;
+	width: 60%;
+}
+
+.vita-right {
+  float: right;
+}
+
 .vita-contact p {
-    font-size: .8rem;
-    line-height: 1;
+    font-size: 1rem;
+    line-height: 1.1;
 	text-align: right;
-    margin: 0;
-    padding: 0;
 }
 
 .vita ul {
