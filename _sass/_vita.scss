@@ -14,12 +14,12 @@ vita p {
 }
 
 .vita-contact {
-    font-family: 'Cormorant Garamond',serif;
+    font-family: $body-font;
     font-size: 1rem;
 	font-weight: normal;
-    line-height: 1.1;
+    line-height: 1;
 	text-align: right;
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -27,15 +27,13 @@ vita p {
     font-size: .8rem;
     line-height: 1;
 	text-align: right;
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
 .vita ul {
     font-size: 1.3rem;
 }
-
-.
 
 .vita h1 {
 	font-family: $heading-font;
