@@ -108,18 +108,18 @@
 @media only screen
 and (max-device-width:576px){
     .post-title {
-        font-size: 2.4rem;
+        font-size: $h1;
     }
     .post-header h1 {
-        font-size: 1.6rem;
+        font-size: $h2;
     }
     .post-header h2 {
-        font-size: 1.3rem;
+        font-size: $h3;
     }
     .post-header h3 {
-        font-size: 1rem;
+        font-size: $h4;
     }
     .post-header h4 {
-        font-size: 8rem;
+        font-size: $h5;
     }
 }

@@ -49,21 +49,21 @@
 @media only screen
 and (max-device-width:576px){
     .notes h1 {
-        font-size: 1.6rem;
+        font-size: $h2;
     }
     .notes h2 {
-        font-size: 1.3rem;
+        font-size: $h3;
     }
     .notes h3 {
-        font-size: 1rem;
+        font-size: $h4;
     }
     .notes h4 {
-        font-size: 8rem;
+        font-size: $h5;
     }
     .notes h5 {
-        font-size: .7rem;
+        font-size: $h6;
     }
     .notes h6 {
-        font-size: .6rem;
+        font-size: $h7;
     }
 }

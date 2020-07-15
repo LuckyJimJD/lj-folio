@@ -11,17 +11,19 @@ $code-font: $monospace-font;
 
 // Font Sizes 
 $base-size: 16px !default;
-$small-size:  0.8rem !default;
-$title-size: 3.6rem !default;
-$page-title: 3rem !default;
-$post-title: 3rem !default;
+$small-size:  .8rem !default;
+$title-size: 5rem !default;
+$page-title: 2.5rem !default;
+$post-title: 2.5rem !default;
 $description-size: 1.6rem !default;
-$h1: 2.5rem !default;
-$h2: 2rem !default;
-$h3: 1.6rem !default;
-$h4: 1.25rem !default;
-$h5: 1rem !default;
-$h6: .8rem !default;
+$h1: 2rem !default;
+$h2: 1.6rem !default;
+$h3: 1.3rem !default;
+$h4: 1rem !default;
+$h5: .8rem !default;
+$h6: .7rem !default;
+$h7: .6rem !default;
+$h8: .5rem !default;
 $h00: 4rem !default;
 $h0: 3rem !default;
 $h00-responsive: 8vw !default;
@@ -121,7 +123,7 @@ $footer-padding: .5rem;
 $footer-color: $light-gray;
 $footer-bg-color: $grey-color-dark;
 $footer-font-weight: 400;
-$footer-font-size: .75rem;
+$footer-font-size: .8rem;
 
 
 // Breakpoints
@@ -184,4 +186,4 @@ $caption-font-size: 12px;
 $caption-color: #aaa;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
-$on-palm:  600px !default;
+$on-palm:  800px !default;

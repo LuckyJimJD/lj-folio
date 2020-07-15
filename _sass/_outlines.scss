@@ -82,21 +82,3 @@ body {
     margin-top: 1rem;
 }
 
-@media only screen
-and (max-device-width:576px){
-    .outline h1 {
-        font-size: $h2;
-    }
-    .outline h2 {
-        font-size: $h3;
-    }
-    .outline h3 {
-        font-size: $h4;
-    }
-    .outline h4 {
-        font-size: $h5;
-    }
-    .outline h5 {
-        font-size: $h6;
-    }
-}

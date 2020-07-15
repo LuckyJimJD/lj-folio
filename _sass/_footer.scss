@@ -22,7 +22,7 @@ footer {
   background-color: $grey-color-dark;
   border-top: $footer-border-top;
   color: $footer-color;
-  font-size: .5rem;
+  font-size: $h8;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
   position: fixed;
@@ -38,7 +38,7 @@ footer {
 @media only screen
 and (min-device-width:576px){
     footer {
-      font-size: $footer-font-size;
+      font-size: $h5;
       padding: $footer-padding;
     }
 
