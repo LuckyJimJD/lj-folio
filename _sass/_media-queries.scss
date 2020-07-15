@@ -6,7 +6,7 @@
 
 @media screen and (min-width: $viewport-small) {
     html {
-        font-size: 16px;
+        font-size: $small-size;
     }
 
   h1,
@@ -23,7 +23,7 @@
   }
 
   .site-header a {
-    font-size: $h5;
+    font-size: $h4;
   }
 
   .site-header .site-title {
@@ -57,7 +57,7 @@
 
 @media screen and (min-width: $viewport-medium) {
   html {
-    font-size: 18px;
+    font-size: $medium-size;
   }
   .img_row {
      height: $img-height/1.5;
@@ -69,7 +69,7 @@
 
 @media screen and (min-width: $viewport-large) {
   html {
-    font-size: 20px;
+    font-size: $large-size;
   }
   .img_row {
      height: $img-height;

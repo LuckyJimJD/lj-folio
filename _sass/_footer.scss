@@ -34,12 +34,12 @@ footer {
   a:hover { color: $theme-color; }
 }
 
-
+/*!
 @media only screen
 and (min-device-width:576px){
     footer {
-      font-size: $h5;
+      font-size: $h6;
       padding: $footer-padding;
     }
-
 }
+*/

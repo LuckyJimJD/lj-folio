@@ -11,21 +11,24 @@ $code-font: $monospace-font;
 
 // Font Sizes 
 $base-size: 16px !default;
-$small-size:  .8rem !default;
+$small-size:  16px !default;
+$medium-size:  18px !default;
+$large-size:  20px !default;
 $title-size: 5rem !default;
-$page-title: 2.5rem !default;
-$post-title: 2.5rem !default;
-$description-size: 1.6rem !default;
-$h1: 2rem !default;
-$h2: 1.6rem !default;
-$h3: 1.3rem !default;
-$h4: 1rem !default;
-$h5: .8rem !default;
-$h6: .7rem !default;
-$h7: .6rem !default;
-$h8: .5rem !default;
-$h00: 4rem !default;
-$h0: 3rem !default;
+$page-title: 2.5em !default;
+$post-title: 2.5em !default;
+$description-size: 1.6em !default;
+$h1: 2em !default;
+$h2: 1.6em !default;
+$h3: 1.3em !default;
+$h4: 1em !default;
+$h5: .8em !default;
+$h6: .7em !default;
+$h7: .6em !default;
+$h8: .5em !default;
+$h9: .4em !default;
+$h00: 4em !default;
+$h0: 3em !default;
 $h00-responsive: 8vw !default;
 $h0-responsive: 6vw !default;
 $h1-responsive: 4vw !default;
@@ -49,8 +52,8 @@ $space-2: 1rem !default;
 $space-3: 2rem !default;
 $space-4: 4rem !default;
 
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
+$horizontal-spacing-unit: 50px;
+$vertical-spacing-unit: 40px;
 
 // Page width
 $measure-width: 42rem !default;
@@ -123,7 +126,7 @@ $footer-padding: .5rem;
 $footer-color: $light-gray;
 $footer-bg-color: $grey-color-dark;
 $footer-font-weight: 400;
-$footer-font-size: .8rem;
+$footer-font-size: .5em;
 
 
 // Breakpoints
