@@ -10,7 +10,7 @@
 .post-title {
     color: $dark_red;
     font-family: $heading-font; 
-    font-size: $title-size;
+    font-size: $post-title;
     font-style: normal;
     line-height: 1;
     margin-top: 0;
@@ -20,7 +20,7 @@
 .post-header h1 {
 	font-family: $heading-font; 
 	color: $dark_red;
-	font-size: $title-size;
+	font-size: $post-title;
 	line-height: 1.3;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -29,7 +29,7 @@
 .post-header h2 {
     font-family: $heading-font; 
 	color: $dark_red;
-    font-size: $title-size;
+    font-size: $post-title;
 	line-height: 1.3;
 	margin-top: 1.5rem;
 	margin-bottom: 0;
