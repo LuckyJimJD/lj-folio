@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (min-width: $viewport-small) {
+@media screen and (max-width: $viewport-small) {
     html {
         font-size: $small-size;
     }
@@ -23,11 +23,11 @@
   }
 
   .site-header a {
-    font-size: $h4;
+    font-size: $h3;
   }
 
   .site-header .site-title {
-    font-size: $h3;
+    font-size: $h2;
     float: left;
   }
 
@@ -79,11 +79,12 @@
   }
 }
 
+/*!
 @media screen and (min-width: $viewport-large + 14) {
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
   }
 }
-
+*/
 

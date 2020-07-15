@@ -10,7 +10,7 @@ $heading-font: $sans-font;
 $code-font: $monospace-font;
 
 // Font Sizes 
-$base-size: 16px !default;
+$base-size: 18px !default;
 $small-size:  16px !default;
 $medium-size:  18px !default;
 $large-size:  20px !default;
@@ -60,9 +60,9 @@ $measure-width: 42rem !default;
 
 
 // Viewport widths
-$viewport-small: 32em;
-$viewport-medium: 48em;
-$viewport-large: 64em;
+$viewport-small: 600px;
+$viewport-medium: 768px;
+$viewport-large: 1200px;
 
 // Colors
 $red:               #FF3636 !default;
