@@ -123,3 +123,9 @@ and (max-device-width:576px){
         font-size: $h5;
     }
 }
+
+@media screen and (min-width: $viewport-large) {
+  html {
+    font-size: $large-size;
+  }
+}
