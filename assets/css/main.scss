@@ -6,6 +6,7 @@
 // List in hierachical order (later overrides earlier)
 
 @import 'variables';
+@import 'media-queries';
 @import 'basscss';
 @import 'base';
 @import 'clearfix';
@@ -30,4 +31,3 @@
 @import 'publications';
 @import 'syllabus';
 @import 'vita';
-@import 'media-queries';
