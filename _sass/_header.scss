@@ -18,6 +18,7 @@
 }
 .site-nav {
 	font-family: $heading-font;
+	font-size: .8rem;
     float: right;
     line-height: $nav-height;
     
@@ -89,6 +90,7 @@
         }
     }
 }
+
 
 .header-bar{
     border-bottom: 1px solid $light-gray;
