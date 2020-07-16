@@ -128,3 +128,16 @@ sup {
 div.equation {
     margin: .5rem 0;
 }
+
+
+@media screen and (min-width: $viewport-medium) {
+  html {
+    font-size: $medium-size;
+  }
+}
+
+@media screen and (min-width: $viewport-large) {
+  html {
+    font-size: $large-size;
+  }
+}
