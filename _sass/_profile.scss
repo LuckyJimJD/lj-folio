@@ -89,7 +89,79 @@
 
 
 @media only screen
-and (min-device-width:576px){
+and (min-width:768px){
+    .profile-block {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        top: 15%;
+        left: 0;
+        text-align: center;
+    }
+
+    .profile h1 {
+        font-size: $page-title;
+        font-weight: 700;
+        color: white;
+        margin: 0px 0 0.5rem 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+
+    .profile h2 {
+        font-size: $h1;
+        color: white;
+        line-height: 2;
+        font-weight: 700;
+        margin: 0 0 0 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+
+    .profile h3 {
+        font-size: $h2;
+        color: white;
+        line-height: $line-height;
+        font-weight: 700;
+        margin: 0 0 0 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+
+    .profile h4 {
+        font-size: $h3;
+        font-weight: 700;
+        color: white;
+        line-height: $line-height;
+        margin: 0 0 0 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+
+    .profile h3 + h4 {
+        margin-top: 1rem;
+    }
+
+    .social {
+        border-top: 0px solid $grey-color-light;
+        margin-top: 3rem;
+        line-height: 1;
+    }
+
+    .list-inline {
+        font-size: 24px;
+        padding-left: 0;
+        list-style: none;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+    
+    .list-inline>li {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+@media only screen
+and (min-width:1000px){
     .profile-block {
         position: absolute;
         margin-left: auto;
@@ -122,12 +194,8 @@ and (min-device-width:576px){
         color: white;
         line-height: $line-height;
         font-weight: 700;
-        margin: 2rem 0 0rem 0;
+        margin: 0 0 0 0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-    }
-
-    .profile h3 + h3 {
-        margin-top: 0rem;
     }
 
     .profile h4 {
