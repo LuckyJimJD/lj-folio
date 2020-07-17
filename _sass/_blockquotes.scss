@@ -4,8 +4,8 @@ blockquote {
 
 blockquote, 
 blockquote p {
-    font-size: $h6;
-    line-height: 1.3;
+    font-size: $blockquote-size;
+    line-height: $blockquote-line-height;
     font-style: italic;
     margin: 1.5rem 1.5rem 1.5rem 1.5rem;
     padding: 0;
