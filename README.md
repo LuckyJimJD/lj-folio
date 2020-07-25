@@ -18,18 +18,29 @@ This theme is based on [alshedivat/al-folio](https://github.com/alshedivat/al-fo
 
 ## Installation 
 
-1. Fork theme from `https://github.com/LuckyJimJD/CourseSiteTheme` to `github.com:<your-username>/<your-repo-name>`. 
+1. Fork theme from `https://github.com/LuckyJimJD/CourseSiteTheme`to `github.com:<your-username>/<your-repo-name>`. 
 
 2. Clone to local system. 
 
 3. Edit _config.yml: 
 
+You must include at least the 'url', 'baseurl', 'title' & 'name' variables: 
     ```
-    url: http://username.github.io # change "username" to your github username
-    baseurl:  /repository/ # change "repository" to github repository name 
+    url: http://username.github.io # change 'username' to your github username; if your github.io site directs to a custom URL, use that instead. 
+    baseurl:  /repository/ # change 'repository' to your github repository name; be sure to keep the leading and trailing '/'. 
+	title: 'Site Title' # change 'Site Title' to the title of your site as you want it to appear on the 'About' page and in the header of other pages . 
+	name: 'Author Name' # change 'Author Name' to your name as you want it to appear on 'About' page and elsewhere. 
     ```
+The remaining variables ('position', 'affiliation', etc.) are optional but should be included if you want this information to appear on the 'About' page or elsewhere in your site. Replace contents with your information. 
 
-4. Edit other content:
+4. Edit _layouts/default.html & _layouts/about.html 
+
+Delete Statcounter code 
+
+- If you use Statcounter or other site tracker, insert code for your site as directed. 
+
+
+5. Edit other content:
 
 The '_data' folder has YAML files with information to populate the 'About', 'Scholarship' & 'Teaching' pages. You can modify these and add other pages for the content you want to include in your site. 
 
@@ -49,7 +60,7 @@ To create an index page (like the 'scholarship' page here):
 
 To include navigation links to pages in the site header, edit the '_data/pages.yml' file. That file is used to auto-populate the navigation links in the site header ('_includes/header.html').
 
-5. Commit changes in git and then push to [GitHub Pages]((https://pages.github.com/).
+6. Commit changes in git and then push to [GitHub Pages]((https://pages.github.com/).
 
 ### Modifying Theme Style 
 

@@ -1,11 +1,12 @@
 ---
 url: https://www.emfink.net # the base hostname & protocol for your site
 baseurl: /lj-folio # the subpath of your site, e.g. /blog/
-title: Eric M. Fink
+title: Eric M. Fink # the title of your site as you want it to appear on 'About' page and in header of other pages 
 description:  # leave blank if you don't want to display a description 
-last_updated: 17 July 2020 # leave blank if you don't want to display last updated
+last_updated: 25 July 2020 # leave blank if you don't want to display last updated
 
-name: Eric M. Fink
+name: Eric M. Fink # site author name as you want it to appear on 'About' page and elsewhere 
+# Replace the following with your contact information 
 position: Associate Professor
 institution: Elon Law School
 street: 201 North Greene Street
