@@ -8,13 +8,15 @@
 }
 
 .case-footer {
-	border-top: 1px dashed $dark_grey;
+	border-top: 1px solid $dark_grey;
 	margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .case-footer p {
-	font-size: 1em;
+	border: none;
+	font-size: .8em;
+	font-style: italic;
 }
 
 .case-title {
