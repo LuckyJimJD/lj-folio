@@ -7,16 +7,16 @@ layout: default
 		<header class="case-header">
 			<h1 class="case-header">{{ page.title }}</h1>
 
-			<h3 class="case-header">{{ page.cite }} ({{ page.court }} {{ page.published }})<sup><a id="linkToNote1" href="#note1">*</a></sup></h3>
+			<h3 class="case-header">{{ page.cite }} ({{ page.court }} {{ page.published }})</h3>
 		</header>
 
 		<article class="post-content {{page.title}} clearfix">
 			{{ content }}
 		</article>
 
-		<hr>
-
-		<sup id="note1">* Most internal citations have been omitted. Other omissions are indicated by [ * * * ].<a href="#linkToNote1" title="Jump back to note * in the text.">↩</a></sup>
+		<Footer class="case-footer">
+			<p class="case-footer">Most internal citations and footnotes have been omitted. Other omissions are indicated by [ * * * ].</p>
+		</footer>
 
 	</div>
 </div>
