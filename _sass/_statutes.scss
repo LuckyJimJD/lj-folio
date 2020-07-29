@@ -1,25 +1,13 @@
-.case p {
+.statute p {
     font-size: 1em;
 }
 
-.case-header {
+.statute-header {
 	margin-top: 0;
     margin-bottom: 1rem;
 }
 
-.case-footer {
-	border-top: 1px solid $dark_grey;
-	margin-top: 2rem;
-    margin-bottom: 0rem;
-}
-
-.case-footer p {
-	border: none;
-	font-size: .8em;
-	font-style: italic;
-}
-
-.case-title {
+.statute-title {
     color: $dark_red;
     font-family: $heading-font; 
     font-size: $post-title;
@@ -29,7 +17,7 @@
     margin-bottom: 0rem;
 }
 
-.case-header h1 {
+.statute-header h1 {
 	font-family: $heading-font; 
 	color: $dark_red;
 	font-size: $post-title;
@@ -38,7 +26,7 @@
 	margin-bottom: 0;
 }
 
-.case-header h2 {
+.statute-header h2 {
     font-family: $heading-font; 
 	color: $dark_red;
     font-size: $post-title;
@@ -47,7 +35,7 @@
 	margin-bottom: 0;
 }
 
-.case-header h3 {
+.statute-header h3 {
     font-family: $body-font; 
 	color: $text-color;
     font-size: $h3;
@@ -56,7 +44,7 @@
 	margin-bottom: 0;
 }
 
-.case-header h4 {
+.statute-header h4 {
 	font-family: $body-font; 
 	color: $text-color;
 	font-size: $h3;
@@ -67,7 +55,7 @@
 	margin-bottom: 0;
 }
 
-.case-header h5 {
+.statute-header h5 {
 	font-family: $body-font; 
     color: $text-color;
     font-size: $h5;
@@ -78,7 +66,7 @@
 	margin-bottom: 0;
 }
 
-.case-header h6 {
+.statute-header h6 {
 	font-family: $body-font; 
     font-size: $h6;
     color: $text-color;
@@ -88,32 +76,46 @@
     margin-top: 0;
 }
 
-.case h3, h4, h5 {
+.statute h3, h4, h5 {
 	margin-bottom: 1rem;
 }
 
-.case h1 {
+.statute h1 {
 	font-size: $h2;
 }
 
-.case h2 {
+.statute h2 {
 	font-size: $h3;
 }
 
-.case h3 {
+.statute h3 {
 	font-size: $h4;
 }
 
-.case h4 {
+.statute h4 {
 	font-size: $h5;
 }
 
-.case-meta {
+.statute blockquote {
+    border: none;
+}
+
+.statute blockquote, 
+blockquote p {
+    font-size: 1rem;
+    line-height: $line-height;
+    font-style: normal;
+    margin: 0rem 0rem 1rem .5rem;
+    padding: 0;
+}
+
+
+.statute-meta {
     color: $grey-color;
     font-size: $small-size;
     margin-bottom: 0px;
 }
-.case-link {
+.statute-link {
     display: block;
     font-size: 32px;
 }
@@ -127,19 +129,19 @@
 
 @media only screen
 and (max-device-width:576px){
-    .case-title {
+    .statute-title {
         font-size: $h1;
     }
-    .case-header h1 {
+    .statute-header h1 {
         font-size: $h2;
     }
-    .case-header h2 {
+    .statute-header h2 {
         font-size: $h3;
     }
-    .case-header h3 {
+    .statute-header h3 {
         font-size: $h4;
     }
-    .case-header h4 {
+    .statute-header h4 {
         font-size: $h5;
     }
 }
