@@ -1,6 +1,4 @@
-.case p {
-    font-size: 1.2em;
-}
+
 
 .case-header {
 	margin-top: 0;
@@ -90,6 +88,22 @@
 
 .case h3, h4, h5 {
 	margin-bottom: 1rem;
+}
+
+.case h1 {
+	font-size: $h2;
+}
+
+.case h2 {
+	font-size: $h3;
+}
+
+.case h3 {
+	font-size: $h4;
+}
+
+.case h4 {
+	font-size: $h5;
 }
 
 .case-list {
