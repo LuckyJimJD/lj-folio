@@ -108,6 +108,19 @@
 	font-size: $h5;
 }
 
+.case blockquote {
+    border: none;
+}
+
+.case blockquote, 
+blockquote p {
+    font-size: $blockquote-size;
+    line-height: $blockquote-line-height;
+    font-style: italic;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0;
+}
+
 .case-meta {
     color: $grey-color;
     font-size: $small-size;
