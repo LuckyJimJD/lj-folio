@@ -1,28 +1,29 @@
 /* Basscss Color Base */
 
 body {
-  color: $text-color;
-  background-color: #fffff8;
+	color: $text-color;
+	background-color: $background-color;
 }
 
 a {
-  color: $theme-color;
-  text-decoration: none;
+	color: $link-color;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+	color: $link-hover-color;
+	text-decoration: underline;
 }
 
 pre,
 code {
-  background-color: $lighter-gray;
-  border-radius: $border-radius;
+	background-color: $lighter-grey;
+	border-radius: $border-radius;
 }
 
 hr {
-  border: 0;
-  border-bottom-style: solid;
-  border-bottom-width: $border-width;
-  border-bottom-color: $border-color;
+	border: 0;
+	border-bottom-style: solid;
+	border-bottom-width: $border-width;
+	border-bottom-color: $border-color;
 }

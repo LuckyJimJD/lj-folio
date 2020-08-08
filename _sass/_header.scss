@@ -1,5 +1,5 @@
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $light-grey;
     background-color: #fffff8;
     opacity: 1;
     position:fixed;
@@ -11,14 +11,14 @@
 .site-title {
 	font-family: $heading-font;
 	font-weight: bold;
-    font-size: $h4;
-    color: $dark_red;
+    font-size: $h2;
+    color: $theme-color;
     line-height: $nav-height;
     margin-bottom: 0;
 }
 .site-nav {
 	font-family: $heading-font;
-	font-size: $h6;
+	font-size: $h4;
     float: right;
     line-height: $nav-height;
     
@@ -43,7 +43,7 @@
         top: 9px;
         right: 10%;
         background-color: #fffff8;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $light-grey;
         border-radius: 5px;
         text-align: right;
 
@@ -66,7 +66,7 @@
             text-align: center;
 
             > svg path {
-                fill: $grey-color-dark;
+                fill: $dark-grey;
             }
         }
 
@@ -91,9 +91,8 @@
     }
 }
 
-
 .header-bar{
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid $light-grey;
     font-size: $h3;
     display: block;
     opacity: 0.75;

@@ -63,7 +63,7 @@
 }
 
 .highlight .k {
-  font-weight: normal;
+  font-weight: $normal-weight;
 }
 
 .highlight .nc,
@@ -73,7 +73,7 @@
 
 .highlight .o {
   color: $hljs-tag;
-  font-weight: normal;
+  font-weight: $normal-weight;
 }
 
 .highlight .nb {

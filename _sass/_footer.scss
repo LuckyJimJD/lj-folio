@@ -1,45 +1,37 @@
 .site {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+					flex-direction: column;
+	min-height: 100vh;
 }
 
 .site-wrap {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+			-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
 }
 
 footer {
-  background-color: $grey-color-dark;
-  border-top: $footer-border-top;
-  color: $footer-color;
-  font-size: $h6;
-  font-weight: $footer-font-weight;
-  padding: $footer-padding;
-  position: fixed;
-    left: 0px;
-    bottom: 0px;
-  width: 100%;
+	font-family: $serif-font
+	background-color: $footer-bg-color;
+	border-top: $footer-border-top;
+	color: $footer-color;
+	font-size: $h6;
+	font-weight: $footer-font-weight;
+	padding: $footer-padding;
+	position: fixed;
+		left: 0px;
+		bottom: 0px;
+	width: 100%;
 
-  a { color: #fff; }
-  a:hover { color: $theme-color; }
+	a { color: #fff; }
+	a:hover { color: $link-hover-color; }
 }
 
-/*!
-@media only screen
-and (min-device-width:576px){
-    footer {
-      font-size: $h6;
-      padding: $footer-padding;
-    }
-}
-*/

@@ -1,11 +1,11 @@
 /* Basscss Utility Typography */
 
 .bold {
-  font-weight: $bold-font-weight;
+  font-weight: $bold-weight;
 }
 
 .regular {
-  font-weight: normal;
+  font-weight: $normal-weight;
 }
 
 .italic {

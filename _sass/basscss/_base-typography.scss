@@ -13,13 +13,11 @@ h4,
 h5,
 h6 {
   font-family: $heading-font;
-  font-weight: $heading-font-weight;
+  font-weight: $heading-weight;
   line-height: $heading-line-height;
   margin-top: 1em;
   margin-bottom: .5em;
 }
-
-
 
 p,
 dl,
@@ -38,7 +36,7 @@ ul {
 pre,
 code,
 samp {
-  font-family: $monospace-font;
+  font-family: $code-font;
   font-size: inherit;
 }
 

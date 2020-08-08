@@ -8,7 +8,7 @@ body {
 }
 
 abbr {
-    border-bottom: $abbr-border-bottom;
+    border-bottom: none;
     cursor: help;
 }
 
@@ -69,7 +69,7 @@ h3 {
 h4 {
     font-size: $h4; 
 	font-style: italic;
-	font-weight: normal;
+	font-weight: $normal-weight;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
