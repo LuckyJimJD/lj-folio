@@ -123,17 +123,11 @@ $nav-height: 56px;
 
 // Footer
 $footer-border-top: 	thin solid $dark-grey;
-$footer-padding: 		$space-1;
+$footer-padding: 		.5rem;
 $footer-color: 			$light-grey;
 $footer-bg-color: 		$dark-grey;
 $footer-font-weight: 	400;
 $footer-font-size: 		.75rem;
-
-// Whitespace
-$space-1: .5rem !default;
-$space-2: 1rem !default;
-$space-3: 2rem !default;
-$space-4: 4rem !default;
 
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
