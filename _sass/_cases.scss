@@ -121,6 +121,10 @@ blockquote p {
     padding: 0;
 }
 
+.case sup {
+  font-size: $smaller-size;
+}
+
 .case-meta {
     color: $grey;
     font-size: $small-size;
