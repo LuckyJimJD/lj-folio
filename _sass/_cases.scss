@@ -122,7 +122,8 @@ blockquote p {
 }
 
 .case sup {
-  font-size: $smaller-size;
+	font_family: $sans-font;
+	font-size: $smaller_size;
 }
 
 .case-meta {
