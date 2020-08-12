@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /vita/
 title: CV
 
 author: Eric M. Fink
