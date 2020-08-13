@@ -58,6 +58,43 @@ blockquote p {
     margin-top: 0rem;
 }
 
+
+h1:first-child {
+	margin-top: 0px; 
+}
+
+h1 + h2 {
+    margin-top: 1.625rem;
+}
+
+h1 + h3 {
+    margin-top: 1rem;
+}
+
+h1 + h4 {
+    margin-top: 1rem;
+}
+
+h1 + h5 {
+    margin-top: 1rem;
+}
+
+h2 + h3 {
+    margin-top: 1.625rem;
+}
+
+h2 + h4 {
+    margin-top: 1rem;
+}
+
+h3 + h4 {
+    margin-top: 1rem;
+}
+
+h4 + h3 {
+    margin-top: 1rem;
+}
+
 .download-link {
 	background-color: #fc6;
 	width: 12rem;
