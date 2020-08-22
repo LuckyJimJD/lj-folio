@@ -12,10 +12,13 @@ $code-font: $monospace-font;
 
 // Font Sizes 
 $base-size: 18px !default;
-$small-size:  16px !default;
-$smaller-size:  14px !default;
-$medium-size:  18px !default;
-$large-size:  20px !default;
+$small-size:  .9rem !default;
+$smaller-size:  .8rem !default;
+$smallest-size:  .7rem !default;
+$medium-size:  1rem !default;
+$large-size:  1.1rem !default;
+$larger-size:  1.2rem !default;
+$largest-size:  1.3rem !default;
 $title-size: 3rem !default;
 $page-title: 2.5rem !default;
 $post-title: 2.5rem !default;

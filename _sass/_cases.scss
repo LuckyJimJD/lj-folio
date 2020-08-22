@@ -123,7 +123,7 @@ blockquote p {
 
 .case sup {
 	font_family: $sans-font;
-	font-size: $smaller_size;
+	font-size: $small-size;
 }
 
 .case-meta {
@@ -131,6 +131,7 @@ blockquote p {
     font-size: $small-size;
     margin-bottom: 0px;
 }
+
 .case-link {
     display: block;
     font-size: 32px;
