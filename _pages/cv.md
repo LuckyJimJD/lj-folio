@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: vita
 permalink: /vita/
 title: CV
 
