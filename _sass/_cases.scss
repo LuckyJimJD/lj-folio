@@ -94,18 +94,29 @@
 
 .case h1 {
 	font-size: $h2;
+	font-family: $body-font; 
+	font-weight: bold;
 }
 
 .case h2 {
 	font-size: $h3;
+	font-family: $body-font; 
+	font-weight: normal;
+	font-style: italic;
 }
 
 .case h3 {
 	font-size: $h4;
+	font-family: $body-font; 
+	font-weight: bold;
+	font-style: normal;
 }
 
 .case h4 {
 	font-size: $h5;
+	font-family: $body-font; 
+	font-weight: bold;
+	font-style: normal;
 }
 
 .case blockquote {
