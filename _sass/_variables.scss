@@ -11,15 +11,21 @@ $heading-font: 'Proza Libre',Lato,Helvetica, Verdana, sans-serif !default;
 $code-font: $monospace-font;
 
 // Font Sizes 
-$base-size: 18px !default;
-$small-size:  .9rem !default;
-$smaller-size:  .8rem !default;
-$smallest-size:  .7rem !default;
+$base-size: 16px !default;
+$small-size:  .8rem !default;
+$smaller-size:  .64rem !default;
+$smallest-size:  .512rem !default;
+$tiny-size: .41rem !default; 
 $medium-size:  1rem !default;
-$large-size:  1.1rem !default;
-$larger-size:  1.2rem !default;
-$largest-size:  1.3rem !default;
-$title-size: 3rem !default;
+$large-size:  1.125rem !default;
+$larger-size:  1.25rem !default;
+$largest-size:  1.4rem !default;
+$huge-size: 3.053rem !default;
+$huger-size: 3.815rem !default;
+$hugest-size: 4.768rem !default;
+$title-size: 1.563rem !default;
+$subtitle-size: 1.25rem !default;
+$body-size: 1rem !default;
 $page-title: 2.5rem !default;
 $post-title: 2.5rem !default;
 $description-size: 1.6rem !default;
@@ -43,9 +49,24 @@ $h0-responsive-max: 5.76rem !default;
 $h1-responsive-max: 3.84rem !default;
 $abbr-border-bottom: 1px black dotted !default;
 
+$social-icons-large: 1.5rem;
+$social-icons-medium: 1.25rem;
+$social-icons-small: 1rem;
+$contacticon-large: 90px;
+$contacticon-medium: 60px;
+$contacticon-small: 30px;
+
 // font weights
-$normal-weight: 	400 !default;
+// font weights
+$black-weight: 		900 !default;
+$heavy-weight: 		800 !default;
 $bold-weight: 		700 !default;
+$medium-weight: 	600 !default;
+$book-weight: 		500 !default;
+$normal-weight: 	400 !default;
+$light-weight: 		300 !default;
+$thin-weight: 		200 !default;
+
 $heading-weight: 	400 !default;
 
 // line heights
